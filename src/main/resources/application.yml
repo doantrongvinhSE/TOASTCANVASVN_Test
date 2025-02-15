@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Flight_BE
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: vvv2002tb
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
+server:
+  port: 9023
+
+
+
